@@ -1,0 +1,278 @@
+*
+{
+    font-family:'Arial Narrow Bold', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    /* background-color: rgb(226, 248, 247); */
+}
+body
+{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: red; */
+}
+
+body .page1
+{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(226, 248, 247);
+}
+
+body .page1 .nav
+{
+    background-color:rgb(233, 247, 247);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0rem 5rem;
+    margin-top: 2px;
+    border: 0.5px solid rgb(233, 247, 247);
+    box-shadow: 3px 3px 12px 3px rgb(161, 198, 198);
+}
+body .page1 .nav a
+{
+    text-decoration: none;
+    padding: 2.8rem;
+    /* background-color: rgba(249, 249, 255, 0); */
+}
+body .page1 .nav a h4
+{
+    font-size: 1.2rem;
+    color:rgb(0, 0, 0)
+}
+body .page1 .main-p1
+{
+    /* background-color: blue; */
+       display: flex;
+       height: 100vh;
+       width: 100vw;
+}
+body .page1 .main-p1 .sidepart-p1
+{
+    /* background-color: red; */
+    height: 40vh;
+    width: 55vw;
+ 
+}
+body .page1 .main-p1 .sidepart-p1 h2
+{
+    margin-top: 5rem;
+    margin-left: 9.1rem;
+    font-weight: 600;
+    font-size:6rem;
+}
+body .page1 .main-p1 .sidepart-p1 h4
+{
+    margin:20px 10px 10px 44px;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+body .page1 .main-p1 .sidepart-p2 
+{
+    margin-top: 5rem;
+    border-radius: 60%;
+    height: 55vh;
+    width:40%;
+    margin-left: 1rem;
+    transform:translate(-0%,-4%);
+    box-shadow: -1px 4px 10px 3px ;
+    animation: slider 70s infinite normal;
+    animation-duration: 15s;
+    background-image:url(https://media.istockphoto.com/id/1370825295/photo/modern-hotel-room-with-double-bed-night-tables-tv-set-and-cityscape-from-the-window.jpg?s=612x612&w=0&k=20&c=QMXz9HJVhU-8MtBYyeJxtqLz90j7r0SrR6FTWniPkgc=) 
+}
+@keyframes slider
+{
+    0%{background-image: url(hotel-exterior-design-services.jpg);background-size: cover;}
+    50%{background-image: url(https://media.istockphoto.com/id/94390726/photo/endless-hotel-corridor.jpg?s=612x612&w=0&k=20&c=KmpH3Z6okpWrM_XWtDi0Pt7lOr9dt_wnDm3PsKQTiw8=);}
+    75%{background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20220311/pngtree-bedroom-guest-room-five-star-hotel-image_990205.jpg);}
+}
+body .page1 .main-p1 button
+{
+    position:absolute;
+    display: flex;
+    margin-left: 18%;
+    margin-top:63vh;
+    height: 3rem;
+    width: 12rem;
+    font-size: 2rem;
+    font-weight: 400;
+    border-radius: 10rem;
+    justify-content: center;
+    background-color:rgb(162, 220, 216);
+}
+.page2{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(226, 248, 247);
+}
+.page2 .cards
+{
+    /* position: absolute; */
+    height: 100vh;
+    width: 100vw;
+    background-color:transparent;
+}
+.page2 .cards .card1{
+    position: absolute;
+    background-color: transparent;
+    margin-top: 4vh;
+    height: 45vh;
+    width:44vw;
+    border: 2PX SOLID BLACK;
+    margin-left: 3rem;
+}
+.page2 .cards .card1 img
+{
+    position: absolute;
+    height: 45vh;
+    width:20vw;
+    border-radius: 100%;
+    margin-top: vh;
+}
+.page2 .cards .card1 h2
+{
+    display: flex;
+    justify-content:center;
+    background-color: transparent;
+    margin-left: 18rem;
+    margin-top: 10vh;
+}
+.page2 .cards .card1 h4
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 4vh;
+    margin-left: 20vw;
+}
+.page2 .cards .card1 h3
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+    margin-left: 20vw;
+}
+
+/* ------------------------------------------------------------------- */
+.page2 .cards .card2{
+    position: absolute;
+    background-color: transparent;
+    margin-top: 4vh;
+    height: 45vh;
+    width:44vw;
+    border: 2PX SOLID BLACK;
+    margin-left: 50vw;
+}
+.page2 .cards .card2 img
+{
+    position: absolute;
+    height: 45vh;
+    width:20vw;
+    border-radius: 100%;
+    margin-top: vh;
+}
+.page2 .cards .card2 h2
+{
+    display: flex;
+    justify-content:center;
+    background-color: transparent;
+    margin-left: 18rem;
+    margin-top: 10vh;
+}
+.page2 .cards .card2 h4 
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 4vh;
+    margin-left: 20vw;
+}
+.page2 .cards .card2 h3
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+    margin-left: 20vw;
+}
+/* ----------------------------------------------------------- */
+.page2 .cards .card3{
+    position: absolute;
+    background-color: transparent;
+    margin-top: 4vh;
+    height: 45vh;
+    width:44vw;
+    border: 2PX SOLID BLACK;
+    margin-left: 3rem;
+    margin-top: 52vh;
+}
+.page2 .cards .card3 img
+{
+    position: absolute;
+    height: 45vh;
+    width:20vw;
+    border-radius: 100%;
+    margin-top: vh;
+}
+.page2 .cards .card3 h2
+{
+    display: flex;
+    justify-content:center;
+    background-color: transparent;
+    margin-left: 18rem;
+    margin-top: 10vh;
+}
+.page2 .cards .card3 h4 
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 4vh;
+    margin-left: 20vw;
+}
+.page2 .cards .card3 h3
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+    margin-left: 20vw;
+}
+/* ------------------------------------------------------ */
+.page2 .cards .card4{
+    position: absolute;
+    background-color: transparent;
+    margin-top: 4vh;
+    height: 45vh;
+    width:44vw;
+    border: 2PX SOLID BLACK;
+    margin-left: 50vw;
+    margin-top: 52vh;
+}
+.page2 .cards .card4 img
+{
+    position: absolute;
+    height: 45vh;
+    width:20vw;
+    border-radius: 100%;
+    margin-top: vh;
+}
+.page2 .cards .card4 h2
+{
+    display: flex;
+    justify-content:center;
+    background-color: transparent;
+    margin-left: 18rem;
+    margin-top: 10vh;
+}
+.page2 .cards .card4 h4 
+{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 4vh;
+    margin-left: 20vw;
+}
+.page2 .cards .card4 h3
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 4vh;
+    margin-left: 20vw;
+}
+/* -------------------------------------------------------------------------- */

@@ -1,0 +1,125 @@
+*{
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    height: 100vh;
+    width: 60vw;
+    background-color: rgb(226, 248, 247);
+
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(226, 248, 247);
+}
+
+.container {
+    max-width: 500px;
+    height: 75.5vh;
+    width: 50%;
+    margin: 120px 0px 0px 56%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+.rolegroup
+{
+    display:flex;
+    gap:15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.reg
+{
+    margin-left: 72%;
+    font-size: 16px;
+    margin-top:10px;
+}
+
+
+
+
+
+/* -----------------------------------------------------------------nav--------------------------------------------------------------------------- */
+.page1 #nav
+{
+    display: flex;
+    height: 6.5rem;
+    width: 100%;
+    background-color:rgb(233, 247, 247);
+    position: fixed;
+    z-index: 9999;
+    margin-top: -120px;
+    
+    border: 0.5px solid rgb(233, 247, 247);
+    box-shadow: 3px 3px 12px 3px rgb(161, 198, 198);
+}
+.page1 #nav .logo img
+{
+    height: 6rem;
+    width:87%;
+    border-radius: 100%;
+    margin-left: 360%;
+}
+.page1 #nav .nav_cont{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    margin-left: 40%;
+    gap:6rem;
+    margin-top: 14px;
+}
+    
+.page1 #nav .nav_cont a
+{
+    text-decoration: none;
+    margin-top: 26px;
+    /* margin-left: 40px; */
+    /* color: rgb(0,0,0); */
+    color: rgb(41, 167, 125);
+        
+}
+.page1 #nav .nav_cont h4 a:hover
+{
+    color: black;
+}

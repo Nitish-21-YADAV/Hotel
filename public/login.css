@@ -1,0 +1,122 @@
+*{
+    color: rgb(0, 0, 0);
+    /* background-color: rgb(226, 248, 247); */
+}
+body
+{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(226, 248, 247);
+
+}
+.login_card
+{
+    background-color: rgb(255, 255, 255);
+    height: 70vh;
+    width:30%;
+    /* background-color: transparent; */
+    position:absolute;
+    margin-top: 18VH;
+    margin-left: 32%;
+    border: 3px solid black;
+    border-radius: 20px;
+    border: 0.5px solid rgb(233, 247, 247);
+    box-shadow: 3px 3px 12px 3px rgb(161, 198, 198);
+}
+.login_card .logint h2
+{
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 33px;
+    /* margin-top:40px ; */
+    /* margin-top: -60vh; */
+}
+.login_card .boxess
+{
+    display: flex;
+    flex-direction: column;
+    height: 30vh;
+    width: 90%;
+    gap:4px;
+    margin-left: 11%;
+    justify-content:center;
+    /* position: absolute; */
+}
+.login_card .boxess input
+{
+    height: 6vh;
+    width: 83%;
+    border: solid 2px;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: transparent;
+    /* text-align: center; */
+}
+.login_card .btns button
+{
+    height: 6vh;
+    width: 24%;
+    border: solid 2px;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 38%;
+    background-color:  #007bff;
+    color:#ffffff;
+}
+
+.login_card .reg
+{
+    margin-left: 25%;
+    font-size: 16px;
+
+}
+
+
+
+
+
+/* -----------------------------------------------------------------nav--------------------------------------------------------------------------- */
+.page1 #nav
+{
+    display: flex;
+    height: 6.5rem;
+    width: 100%;
+    background-color:rgb(233, 247, 247);
+    position: fixed;
+    z-index: 9999;
+    margin-top: -10px;
+    border: 0.5px solid rgb(233, 247, 247);
+    box-shadow: 3px 3px 12px 3px rgb(161, 198, 198);
+}
+.page1 #nav .logo img
+{
+    height: 6rem;
+    width:87%;
+    border-radius: 100%;
+    margin-left: 360%;
+}
+.page1 #nav .nav_cont{
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    margin-left: 40%;
+    gap:6rem;
+    margin-top: 14px;
+}
+    
+.page1 #nav .nav_cont a 
+{
+    text-decoration: none;   
+}
+
+    
+.page1 #nav .nav_cont a h4 
+{
+    font-size: 20px;   
+}
+.page1 #nav .nav_cont a h4:hover
+{
+    color: rgb(41, 167, 125);
+}
