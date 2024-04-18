@@ -12,7 +12,7 @@ const publicdir=path.join(__dirname + '/public');
 app.use(express.static(publicdir));
 
 // ------------------------------------------------------------------------------------------------------------
-// Routes
+// Routes  
 
 app.get("/",(req,res)=>
 {
