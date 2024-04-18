@@ -1,0 +1,29 @@
+body
+{
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+    background-color: rgb(226, 248, 247);
+}
+.card
+{
+    height: 40%;
+    width: 50%;
+    background-color: white;
+    border: 2px solid rgb(255, 238, 238);
+    border-radius: 10px;
+    /* position: relative; */
+    margin: 4% 25% 4% 25%;
+    text-decoration: none;
+    box-shadow: 3px 3px 12px 3px rgb(161, 198, 198);
+
+}
+.card h3
+{
+    font-size: 30px;
+    /* font-weight: 600; */
+    text-decoration: none;
+    gap:20px;
+    margin-left: 20%;
+    
+}

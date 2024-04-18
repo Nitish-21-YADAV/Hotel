@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill</title>
+    <link rel="stylesheet" href="bill.css">
+</head>
+<body>
+    <form action="/bill" method="post">
+        <div class="outer">
+            <div class="headerss">
+                <h1>Ananda Vihaar</h1>
+                <p>Ananda Vihaar Sri Mukteshwar Devalaya Rd, Marg, Sainath Nagar, MHADA Colony, Mumbai, Maharashtra 400049</p>
+                <p>Tel No:8843981121</p>
+                <p>Mobile No:9321776392</p>
+                <hr>
+            </div>
+            <div class="part2">
+                <div class="even">
+                    <h2>Name: <%= customerss.name %></h2>
+                    <h2>Room Type: <%= customerss.room_type %></h2>
+                    <h2>Charge Per Night: <%= customerss.price %></h2>
+                </div>
+                <div class="odd">
+                    <h2>Date Of Arrival: <%= customerss.checkin %></h2> 
+                    <h2>Date Of Departure: <%= customerss.checkout %></h2>
+                    <h2>Number of Days: <%= customerss.day %></h2>   
+                </div>
+            </div>  
+            <div class="final">
+                <h1>Total Amount: <%= customerss.days * customerss.price %></h1>
+                <hr>
+                <h3>Thank You Visit Again</h3>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

@@ -108,37 +108,42 @@ body .page1 .main-p1 button
 }
 .page2 .cards
 {
-    /* position: absolute; */
-    height: 100vh;
-    width: 100vw;
-    background-color:transparent;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .page2 .cards .card1{
-    position: absolute;
-    background-color: transparent;
-    margin-top: 4vh;
-    height: 45vh;
-    width:44vw;
-    border: 2PX SOLID BLACK;
-    margin-left: 3rem;
+    width: 45%;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-left: 30px;
+    margin-right: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.page2 .cards .card1 .inner_card1
+{
+    padding: 20px;
+    /* margin-left: 20px; */
 }
 .page2 .cards .card1 img
-{
+/* {
     position: absolute;
     height: 45vh;
     width:20vw;
     border-radius: 100%;
     margin-top: vh;
-}
-.page2 .cards .card1 h2
+} */
+.page2 .cards .card1 .inner_card1,h2
 {
     display: flex;
     justify-content:center;
     background-color: transparent;
-    margin-left: 18rem;
-    margin-top: 10vh;
+    margin-left: 8px;
+    margin-top: 4vh;
+    font-size: 30px;
 }
-.page2 .cards .card1 h4
+.page2 .cards .card1 .inner_card1 h4
 {
     display: flex;
     justify-content: flex-end;
@@ -194,85 +199,3 @@ body .page1 .main-p1 button
     margin-left: 20vw;
 }
 /* ----------------------------------------------------------- */
-.page2 .cards .card3{
-    position: absolute;
-    background-color: transparent;
-    margin-top: 4vh;
-    height: 45vh;
-    width:44vw;
-    border: 2PX SOLID BLACK;
-    margin-left: 3rem;
-    margin-top: 52vh;
-}
-.page2 .cards .card3 img
-{
-    position: absolute;
-    height: 45vh;
-    width:20vw;
-    border-radius: 100%;
-    margin-top: vh;
-}
-.page2 .cards .card3 h2
-{
-    display: flex;
-    justify-content:center;
-    background-color: transparent;
-    margin-left: 18rem;
-    margin-top: 10vh;
-}
-.page2 .cards .card3 h4 
-{
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 4vh;
-    margin-left: 20vw;
-}
-.page2 .cards .card3 h3
-{
-    display: flex;
-    justify-content: center;
-    margin-top: 4vh;
-    margin-left: 20vw;
-}
-/* ------------------------------------------------------ */
-.page2 .cards .card4{
-    position: absolute;
-    background-color: transparent;
-    margin-top: 4vh;
-    height: 45vh;
-    width:44vw;
-    border: 2PX SOLID BLACK;
-    margin-left: 50vw;
-    margin-top: 52vh;
-}
-.page2 .cards .card4 img
-{
-    position: absolute;
-    height: 45vh;
-    width:20vw;
-    border-radius: 100%;
-    margin-top: vh;
-}
-.page2 .cards .card4 h2
-{
-    display: flex;
-    justify-content:center;
-    background-color: transparent;
-    margin-left: 18rem;
-    margin-top: 10vh;
-}
-.page2 .cards .card4 h4 
-{
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 4vh;
-    margin-left: 20vw;
-}
-.page2 .cards .card4 h3
-{
-    display: flex;
-    justify-content: center;
-    margin-top: 4vh;
-    margin-left: 20vw;
-}
-/* -------------------------------------------------------------------------- */

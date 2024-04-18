@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bill</title>
+    <link rel="stylesheet" href="report.css">
+</head>
+<body>
+    <form action="/report" method="post">
+        <div class="outer">
+            <div class="headerss">
+                <h1>Ananda Vihaar</h1>
+                <p>Ananda Vihaar Sri Mukteshwar Devalaya Rd, Marg, Sainath Nagar, MHADA Colony, Mumbai, Maharashtra 400049</p>
+                <p>Tel No:8843981121</p>
+                <p>Mobile No:9321776392</p>
+                <hr>
+            </div>
+            <div class="part2">
+                <div class="even">
+                    <% prop.forEach(function(property) { %>
+                        <div class="card">
+                            <h3>Name:<%= property.NAME %></h3>
+                            <h3>Description: <%= property.DESCRIPTION %></h3>
+                            <h3>CONTACT_NUMBER: <%= property.CONTACT_NUMBER%></h3>
+                            <br>
+                            <!-- Add other properties here -->
+                       </div>
+                        <% }); %>
+                </div>
+                <div class="odd">
+                    <% prop.forEach(function(property) { %>
+                        <div class="card">
+                            <h3>ADDRESS: <%= property.ADDRESS %></h3>
+                            <h3>FEATURE1: <%= property.FEATURE1%></h3>
+                            <h3>FEATURE2: <%= property.FEATURE2%></h3>
+                            <h3>FEATURE3: <%= property.FEATURE3%></h3>
+                            <br>
+                            <!-- Add other properties here -->
+                       </div>
+                        <% }); %>    
+                </div>
+            </div>  
+            <div class="final">
+                <hr>
+                <h3>Thank You </h3>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

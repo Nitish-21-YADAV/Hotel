@@ -3,19 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manager Page</title>
-    <link rel="stylesheet" href="manager.css">
+    <title>Staff Page</title>
+    <link rel="stylesheet" href="staff.css">
 </head>
 <body>
     <div class="page1">
         <div class="part1">
             <!-- <h2 style="margin-left:30px;"></h2> -->
             <div class="content">
-                <a href="property_details"><h3>Property Detail</h3></a>
-                <a href="add_property"><h3>Add Property</h3></a>
-                <!-- <a href=""><h3>Room</h3></a> -->
-                <a href="add_room"><h3>Add Room</h3></a>
-                <a href="report"><h3>Report</h3></a>
+                <a href="booking"><h3>Book Room</h3></a>
+                <a href="cancel_booking"><h3>Cancel Room</h3></a>
+                <a href="search"><h3>Search</h3></a>
+                <a href="bill"><h3>Bill</h3></a>
                 <button type="submit">Log Out</button>
             </div>
         </div>
@@ -40,6 +39,20 @@
             </div>
         </div>
     </div>
-    </div>
+    <!-- <script>
+        // Define a function to show the alert message
+        function showAlert() {
+            alert("This is an alert message!");
+        }
+
+        // Call the function to show the alert
+        showAlert();
+    </script> -->
+    <% if (typeof message !== 'undefined') { %>
+        <script>
+            alert("<%= message %>");
+        </script>
+    <% } %>
+    
 </body>
 </html>

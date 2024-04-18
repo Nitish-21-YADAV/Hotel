@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Registration Form</title>
+    <link rel="stylesheet" href="add_room.css">
+</head>
+<body>
+    
+    <form action="/add_r" method="post">
+        <h2>Add Room</h2>
+        <div>
+            <label for="name">Room Name:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div>
+            <label for="description">Description:</label>
+            <textarea id="description" name="description" required></textarea>
+        </div>
+        <div>
+            <label for="contact_number">Price:</label>
+            <input type="tel" id="price" name="price" required>
+        </div>
+                <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

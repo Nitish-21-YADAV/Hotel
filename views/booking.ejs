@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking Form</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+    <h2>Hotel Booking Form</h2>
+    <form action="/submit_booking" method="POST">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        
+        <label for="aadhar">Aadhar Number:</label><br>
+        <input type="text" id="aadhar" name="aadhar" required><br>
+        
+        <label for="phone">Phone Number:</label><br>
+        <input type="text" id="phone" name="phone" required><br>
+
+        
+
+        <label for="room_type">Room Type:</label><br>
+        <select id="room_type" name="room_type" required>
+            <option value="Single Room">Single Room</option>
+            <option value="Twin Rooms">Twin Rooms</option>
+            <option value="Deluxe Rooms">Deluxe Rooms</option>
+            <option value="Suites">Suites</option>
+        </select><br>
+        
+        <label for="email">Price:</label><br>
+        <input type="price" id="price" name="price" required><br>
+
+        <label for="floor">Floor:</label><br>
+        <select id="floor" name="floor" required>
+            <option value="1">Floor Number 1</option>
+            <option value="2">Floor Number 2</option>
+            <option value="3">Floor Number 3</option>
+            <option value="4">Floor Number 4</option>
+        </select><br>
+
+        <label for="room_type">Room Number:</label><br>
+        <input type="text" id="room_no" name="room_no" required><br>
+
+
+        <label for="checkin">Check-in Date:</label><br>
+        <input type="date" id="checkin" name="checkin" required><br>
+        
+        <label for="checkout">Check-out Date:</label><br>
+        <input type="date" id="checkout" name="checkout" required><br>
+        
+        <label for="room_type">Total NUmber Of Day:</label><br>
+        <input type="text" id="day" name="day" required><br>
+
+        <label for="staff">Staff Name:</label><br>
+        <input type="text" id="staff" name="staff" required><br>
+        
+        <label for="location">Location:</label><br>
+        <input type="text" id="location" name="location" required><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

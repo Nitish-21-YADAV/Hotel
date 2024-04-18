@@ -16,13 +16,8 @@
         </div>
         <div class="main-p1">
             <div class="sidepart-p1">
-                <h2>
-                    Ananda Vihar 
-                </h2>
-                <h4>
-                    Your home away from home, where every stay is a story and every moment is a memory.
-                    Discover comfort, embrace luxury, and indulge in the art of relaxation during your stay with us. Your journey to serenity begins here.
-                </h4>
+                <h2>Ananda Vihar</h2>
+                <h4>Your home away from home, where every stay is a story and every moment is a memory. Discover comfort, embrace luxury, and indulge in the art of relaxation during your stay with us. Your journey to serenity begins here.</h4>
             </div>
             <div class="sidepart-p2">
                 <!-- <img src="https://img.freepik.com/free-photo/luxury-classic-modern-bedroom-suite-hotel_105762-1787.jpg?size=626&ext=jpg&ga=GA1.1.1292351815.1712016000&semt=sph" alt=""> -->
@@ -32,39 +27,25 @@
     </div>
     <div class="page2">
         <div class="cards">
+            <% for (let i = 0; i < prop.length; i++) { %>
             <div class="card1">
-                <img src="https://the-chatwal-hotel-new-york.booked.net/data/Photos/OriginalPhoto/8355/835506/835506038/The-Chatwal-Hotel-New-York-Exterior.JPEG" alt="">
-                <h2>Single Room</h2>
-                <h4>Our single rooms guarantee a comfortable and relaxing stay in an interior with a coastal feel. The comfort’s on us.1 Box spring bed with extra Includes TV and free Wi-Fi</h4>
-                <h3>Rate:5999</h3>
+                <div class="inner_card1">
+                    <h2><%= prop[i].name %></h2>
+                    <h4><%= prop[i].description %></h4>
+                    <h3><%= prop[i].price %></h3>
+                    <!-- Add other properties here -->
+                </div>
             </div>
-            <div class="card2">
-                <img src="https://oaklawn.com/site/assets/files/13102/1-double-queen.jpg" alt="">
-                <h2>Twin Rooms</h2>
-                <h4>Our double rooms guarantee a comfortable and relaxing stay in an interior with a coastal feel. The comfort’s on us.2 Box spring bed with extra Includes TV and free Wi-Fi</h4>
-                <h3>Rate:8999</h3>
-            </div>
-            <div class="card3">
-                <img src="https://oaklawn.com/site/assets/files/13122/1-deluxe-king-view.png" alt="">
-                <h2>Deluxe Rooms</h2>
-                <h4>Our studios for up to 2 persons are your home away from home.It contain Living room with Divan bed, 2 box spring beds and 1 rollaway along with extra feture Includes TV and free Wi-Fi 65” TV with Chrome Cast capability Mini-refrigerator</h4>
-                <h3>Rate:13999</h3>
-            </div>
-            <div class="card4">
-                 <img src="https://oaklawn.com/site/assets/files/13123/1-junior-suite.jpg" alt="">
-                <h2>Suites</h2>
-                <h4>Our studios for up to 5 persons are your home away from home.It contain Living room with Divan bed, 2 box spring beds and 1 rollaway along with extra feture Includes TV and free Wi-Fi Mini-refrigerator Sitting area.</h4>
-                <h3>Rate:17999</h3>
-            </div>
+            <% } %>
         </div>
     </div>
     <div class="page3">
         <div class="reviews">
-            
+            <!-- Add reviews here -->
         </div>
     </div>
     <div class="page4">
-
+        <!-- Add other sections here -->
     </div>
 </body>
 </html>
